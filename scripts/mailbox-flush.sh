@@ -14,7 +14,7 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-OUT="$ROOT/outbox"
+OUT="${MAILBOX_OUTBOX:-$ROOT/outbox}"  # queue stays outside the monorepo
 SENT="$OUT/sent"
 PEER=shaansisodia@100.118.29.68
 REMOTE='~/SISO_Workspace/.agents/mailbox/to-main'

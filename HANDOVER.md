@@ -59,7 +59,7 @@ POST http://127.0.0.1:8081/v1/messages  model=claude-minimax-m3[1m]
 Bifrost (8080) → provider. Bifrost gates model access through **virtual keys**.
 
 - Laptop has a virtual key named **"MiniMax Workers Key v2"**, value
-  `sk-bf-6fbeac48-4a5c-4363-9984-0b184d7ddcbe`, self-described as *"routes
+  (redacted 17 Nov 2026; keep it in `vault siso`, never in a file), self-described as *"routes
   workers to MiniMax."* Tested: returns `"model":"MiniMax-M3"`. **Works.**
 - Mini has three virtual keys — `CAM Key`, `PARSER Key`,
   `Mac Mini SISO Agent Base` — and **none route to MiniMax**. Every one returns
